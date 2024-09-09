@@ -1,15 +1,21 @@
-# Lesson 1: Scripting
+# Writing and Running MATLAB Scripts
 
+This segment introduces basic MATLAB scripting. It covers variable assignment, performing operations (e.g., addition), and displaying results using the `disp` function. This is a foundational exercise to familiarize students with MATLAB syntax and simple calculations.
 
-## Basic MATLAB Commands
+### Initialize variables
+
 ```matlab
+a = 10; % Assign the value 10 to variable 'a'
+b = 20; % Assign the value 20 to variable 'b'
+```
+### Perform calculation
 
-% Values
-a = 10; % Assign a value to variable a
-b = 20; % Assign a value to variable b
+```matlab
+c = a + b; % Add variables 'a' and 'b' and store the result in 'c'
+```
 
-% Operation
-c = a + b; % Perform an addition operation 
+### Display the result
 
-% Show results
-disp(c) % This built-in function provides a way to display a value
+```matlab
+disp(c) % Output the value of 'c' to the command window
+```
