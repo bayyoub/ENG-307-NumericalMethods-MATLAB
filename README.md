@@ -1,5 +1,5 @@
 
-# ENG-307 Numerical Methods: Supplementary MATLAB Practice Scripts
+# ENG-307 Applied Numerical Methods & Programming in Engineering: Supplementary MATLAB Practice Scripts
 
 This page provides supplementary examples for students to explore and experiment with. These examples are simple and designed to help you better understand various MATLAB statements, loops, and operations. You can copy and paste the code into MATLAB to see how each part works.
 
