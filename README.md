@@ -9,4 +9,4 @@ Each practice script can be found in the links below:
 
 1. [Learning Script 1: Writing and Running MATLAB Scripts](exercise1.md)
   
-2. [Learning Script 1: Control Flow in MATLAB](exercise2.md)
+2. [Learning Script 2: Example Function: Squaring a Number](exercise2.md)
