@@ -14,3 +14,4 @@ end % End of the function
 - `output = (input)^2`: Squares the `input` value and stores the result in `output`.
 - `end`: Marks the end of the function.
 
+To run the command you will need to save the file as `my_fxn.m`, and then type `my_fxn(x)` in the command window, where x can take on any value. 
