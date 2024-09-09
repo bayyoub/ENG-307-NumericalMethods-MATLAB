@@ -5,5 +5,8 @@ This page provides supplementary examples for students to explore and experiment
 
 These examples should not be considered your primary source of learning but rather as additional resources to support what we cover in class. Some examples may be reviewed during lessons, while others are here to help reinforce key concepts through hands-on practice.
 
+Each practice script can be found in the links below.
+
 1. [Learning Script 1: Writing and Running MATLAB Scripts](exercise1.md)
+  
 2. [Lesson 2: Control Flow in MATLAB](lesson2.md)
