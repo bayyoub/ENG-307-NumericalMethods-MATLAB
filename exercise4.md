@@ -1,4 +1,4 @@
-### **Example Function: Prompting for User Input**
+# **Example Function: Prompting for User Input**
 
 This example demonstrates a MATLAB function, `my_input`, that takes inputs directly from the user. It prompts the user to input values for `x`, `m`, and `b`, then calculates the result using the linear equation `y = m*x + b`. This function provides a useful example of how to interact with the user and handle inputs in MATLAB.
 
