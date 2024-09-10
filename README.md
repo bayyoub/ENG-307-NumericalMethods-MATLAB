@@ -11,4 +11,4 @@ Each practice script can be found in the links below:
   
 2. [Learning Script 2: Example Function: Squaring a Number](exercise2.md)
 
-3. [Learning Script 3: Example Function 2: Calculating Mean and Standard Deviation](exercise3.m)
+3. [Learning Script 3: Example Function 2: Calculating Mean and Standard Deviation](exercise3.md)
