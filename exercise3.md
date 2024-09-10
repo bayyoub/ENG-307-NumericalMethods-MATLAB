@@ -1,6 +1,6 @@
-### **Example Function: Calculating Mean and Standard Deviation**
+# **Example Function 2: Calculating Mean and Standard Deviation**
 
-This example demonstrates a MATLAB function, `my_fxn_2`, which takes a data set as input and returns **two outputs**: the mean and the standard deviation. Unlike the previous example that had one output, this function provides multiple results, helping students understand how to define and work with functions that return more than one value.
+This example demonstrates a MATLAB function, `my_fxn_2`, which takes a data set as input and returns **two outputs**: the mean and the standard deviation. Unlike the previous example that had one output, this function provides two outputs.
 
 ## MATLAB Function
 ```matlab
