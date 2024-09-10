@@ -16,3 +16,5 @@ Each practice script can be found in the links below:
 3. [Learning Script 3: Example Function 2: Calculating Mean and Standard Deviation](exercise3.md)
 
 4. [Learning Script 4: Example Function: Prompting for User Input](exercise4.md)
+
+5. 4. [Learning Script 4: Example Function: Prompting for User Input](exercise5.md)
