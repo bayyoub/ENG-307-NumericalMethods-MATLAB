@@ -7,6 +7,8 @@ These examples should not be considered your primary source of learning but rath
 
 Each practice script can be found in the links below:
 
+## Part 1: Scripts & Functions
+
 1. [Learning Script 1: Writing and Running MATLAB Scripts](exercise1.md)
   
 2. [Learning Script 2: Example Function: Squaring a Number](exercise2.md)
