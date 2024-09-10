@@ -18,3 +18,5 @@ Each practice script can be found in the links below:
 4. [Learning Script 4: Example Function: Prompting for User Input](exercise4.md)
   
 5. [Learning Script 5: Example Function: Using Subfunctions](exercise5.md)
+
+## Part 2: 
