@@ -48,5 +48,5 @@ Copy and paste the code into MATLAB and run it. Make sure to uncomment the `plot
 ### Expected Output:
 
 <p align="center">
-  <img src="vectorization_plot.png" alt="If Statement Example" width="500"/>
+  <img src="vectorization_plot_2.png" alt="If Statement Example" width="500"/>
 </p>
