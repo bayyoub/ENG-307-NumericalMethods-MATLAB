@@ -46,4 +46,7 @@ ylabel("y")
 Copy and paste the code into MATLAB and run it. Make sure to uncomment the `plot(y)` and `hold on` lines if you want to compare the two methods visually.
 
 ### Expected Output:
-A plot of `y2` (the vectorized result) will appear, showing the values of `cos(t) + pi` for `t` ranging from 0 to 50. The plot will display a red dashed line.
+
+<p align="center">
+  <img src="vectorization_plot.png" alt="If Statement Example" width="500"/>
+</p>
