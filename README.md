@@ -21,7 +21,7 @@ Each practice script can be found in the links below:
 
 ## Part 2: Structure Programming & Loops
 
-6. [Learning Script 6: Structure Programming](exercise7.md)
+6. [Learning Script 6: Structured Programming in MATLAB](exercise7.md)
 
 
 
