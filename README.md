@@ -27,3 +27,7 @@ Each practice script can be found in the links below:
 
 ### Author
 This GitHub page was created by [Bader A. Alayyoub](https://github.com/bayyoub).
+
+## References
+1. Chapra, S. C. (2019). *Applied Numerical Methods with MATLAB for Engineers and Scientists*. McGraw-Hill Education.
+
