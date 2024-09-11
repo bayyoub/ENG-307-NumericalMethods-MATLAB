@@ -23,8 +23,8 @@ y2 = cos(t) + pi; % Compute cos(t) for all values of t at once and add pi
 ### Plotting the results for comparison:
 ```matlab
 % Plot the results of both methods
-% plot(y) % Uncomment this line to plot the result from the loop
-% hold on
+plot(y) % Uncomment this line to plot the result from the loop
+hold on
 plot(y2, 'LineStyle', '--', 'Color', 'r') % Plot the vectorized result in red dashed line
 
 % Add labels to the axes
