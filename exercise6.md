@@ -69,7 +69,7 @@ What would happen if we had multiple logical operators in a single expression? H
 
 1. The first thing MATLAB does is evaluate any mathematical expression.
 2. Next, MATLAB evaluates all relational expressions/operations.
-3. Logical operators are then evaluated in priority order, where ~ has the highest priority, & second, and | has the lowest priority. (~ > & > |).
+3. Logical operators are then evaluated in priority order, where `~` has the highest priority, `&` second, and `|` has the lowest priority. (`~` > `&` > `|`).
 4. The left-to-right rule applies if you have two operators that are the same in a row.
 
 Let's take the following logical expression and solve it step by step:
