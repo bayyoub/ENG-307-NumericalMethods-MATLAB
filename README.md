@@ -23,6 +23,8 @@ Each practice script can be found in the links below:
 
 6. [Learning Script 6: Structured Programming in MATLAB](exercise6b.md)
 
+7. [Example: Vectorization in MATLAB](exercise7.md)
+
 
 
 ### Author
