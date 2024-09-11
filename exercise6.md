@@ -15,7 +15,7 @@ Let's try an example:
 ```matlab
 x = rand()
 
-if x > 0.5 %You start with if, then condition.
+if x > 0.5 % You start with if, then condition.
     fprintf('Yes! x is greater than 0.5') %Press enter, and MATLAB will automatically indent, if not press tab.
 end % Finally, type in end, and MATLAB will automatically indent backward.
 ```
@@ -70,7 +70,7 @@ What would happen if we had multiple logical operators in a single expression? H
 1. The first thing MATLAB does is evaluate any mathematical expression.
 2. Next, MATLAB evaluates all relational expressions/operations.
 3. Logical operators are then evaluated in priority order, where `~` has the highest priority, `&` second, and `|` has the lowest priority. (`~` > `&` > `|`).
-4. The left-to-right rule applies if you have two operators that are the same in a row.
+4. The left-to-right rule applies if two operators are the same in a row.
 
 Let's take the following logical expression and solve it step by step:
 
@@ -113,7 +113,7 @@ F & T & F | T
 
 Next, evaluate the & operator. Since we have two of them, start from left and proceed right:
 
-Take F & T & F and split it into two segments: 
+Take `F & T & F` and split it into two segments: 
 
 ```matlab
 F & T = F
@@ -127,3 +127,51 @@ F | T
 ```
 
 The final answer is `T`. 
+
+### If and elseif Statements
+
+Now that we have more sophisticated tool, let's consider other decision problems. Let's consider the `if...else` structure. 
+
+```matlab
+a = rand() % Define an arbitrary randomly generated variable between 0 and 1.
+
+if a > 0.5
+    fprintf('a is greater than 0.5')
+else
+    fprintf('a if less than 0.5')
+end
+```
+
+The other type of decision problem is the `if...elseif` structure. This differs from the if..else statement, where you can have more than two options for a particular problem. For example:
+
+```matlab
+a = randi([0, 3]) % Again, we define an arbitrary randomly generated integer between 0 and 3.
+
+if a == 0
+    fprintf('a is equal to 0')
+elseif a == 1
+    fprintf('a is equal to 1')
+elseif a == 2
+    fprintf('a is equal to 2')
+else
+    fprintf('a is equal to 3')
+end
+```
+### Switch Structure
+
+In essence, they are similar in spirit to the `if...elseif`. The difference is that instead of testing individual conditions, the branching is based on the value of a single test expression. Let us consider the following example:
+
+```matlab
+number = randi([0, 3]) % We define an arbitrary randomly generated integer between 0 and 3.
+
+switch number % Here, we initialize our switch structure. We want to switch the variable a to words instead of a number
+    case 0
+        disp('Zero!')
+    case 1
+        disp('One!')
+    case 2
+        disp('Two!')
+    otherwise
+        disp('Three!')
+end
+```
