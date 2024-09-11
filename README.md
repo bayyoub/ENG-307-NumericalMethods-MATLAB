@@ -22,3 +22,6 @@ Each practice script can be found in the links below:
 ## Part 2: Structure Programming & Loops
 
 6. [Learning Script 6: Structure Programming](exercise6.md)
+
+## Author
+This GitHub page was created by [Bader A. Alayyoub](https://github.com/bayyoub).
