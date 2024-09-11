@@ -19,4 +19,6 @@ Each practice script can be found in the links below:
   
 5. [Learning Script 5: Example Function: Using Subfunctions](exercise5.md)
 
-## Part 2: 
+## Part 2: Structure Programming & Loops
+
+6. [Learning Script 6: Structure Programming](exercise6.md)
