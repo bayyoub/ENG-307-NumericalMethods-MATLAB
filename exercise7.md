@@ -40,7 +40,7 @@ ylabel("y")
   - The vectorized version creates an array `t` and calculates `cos(t)` for all elements simultaneously, adding `pi` to each result and storing it in `y2`.
   
 - **Plotting:**
-  - The `plot(y2)` command visualizes the vectorized results with a dashed red line, and the optional `plot(y)` line (commented out) can be used to visualize the loop results for comparison.
+  - The `plot(y2)` command visualizes the vectorized results with a dashed red line, and the `plot(y)` line is used to visualize the loop results for comparison.
 
 ### To run the code:
 Copy and paste the code into MATLAB and run it. Make sure to uncomment the `plot(y)` and `hold on` lines if you want to compare the two methods visually.
