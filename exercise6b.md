@@ -118,7 +118,7 @@ Step by step, this would evaluate as follows:
 6. The expression becomes:
    ```matlab
    F & F | T
-   F | T = T
+   F | T
    ```
 
 Final result: `T` (true).
