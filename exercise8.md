@@ -76,7 +76,7 @@ disp(E_t_frac);
 True percent relative error is the fractional error expressed as a percentage.
 
 $$
-\epsilon = \frac{\text{True Value} - \text{Approximation}}{\text{True Value}} \times 100 \\%
+\epsilon = \frac{\text{True Value} - \text{Approximation}}{\text{True Value}} \times 100 \%
 $$
 
 ```matlab
