@@ -79,8 +79,6 @@ $$
 \epsilon = \frac{\text{True Value} - \text{Approximation}}{\text{True Value}} \times 100 \\%
 $$
 
-%
-
 ```matlab
 % True Percent Relative Error
 E_t_p = abs(E_t_frac) * 100;  % Percent relative error: Fractional error * 100%
