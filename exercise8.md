@@ -102,20 +102,4 @@ True Percent Relative Error:
    0.001416493732238
 ```
 
----
-
-This format provides clear sections for each error estimation type, making it easier for students to follow and understand the different types of error.
-
-
-
-
-$$
-e^{x} = \sum_{n=0}^{\infty} \frac{x^n}{n!}
-$$
-
-
-
-$$
-e^{x} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \dots
-$$
 
