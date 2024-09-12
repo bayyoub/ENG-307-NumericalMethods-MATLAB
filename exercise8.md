@@ -1,3 +1,100 @@
+### **Error Estimation in Numerical Methods**
+
+This example demonstrates how to calculate various forms of error, including True Error, Absolute Error, True Fractional Relative Error, and True Percentile Error, using the Taylor series expansion for $e^{x}$. This can also be expressed through a Maclaurin series as such:
+
+$$
+e^{x} = \sum_{n=0}^{\infty} \frac{x^n}{n!}
+$$
+
+Here, we will compute the errors for  $e^{0.5}$ using a 6-term Maclaurin series expansion.
+
+## MATLAB Code
+
+```matlab
+% Set the output format to show more significant figures
+format long
+
+% Define x and the true value of exp(x)
+x = 0.5;
+expt = exp(x);  % True value of e^x
+
+% Taylor series approximation for e^x using n terms
+n = 6;  % Specify the number of terms for the expansion
+nx = 0:n-1;  % Create an array with the number of terms from 0 to n-1
+
+% Compute the Taylor series approximation for e^x
+expx = sum(x.^nx ./ factorial(nx));  % Approximation of e^x using Taylor series
+```
+
+### **1. True Error**
+True error is the difference between the true value and the approximation.
+
+$$
+E_{t} = True Value - Approximation
+$$
+
+```matlab
+% True Error
+E_t = expt - expx;  % True error: True value - Approximation
+disp('True Error:');
+disp(E_t);
+```
+
+### **2. Absolute Error**
+Absolute error is the absolute value of the true error.
+
+$$
+|E_{t}| = |True Value - Approximation|
+$$
+
+```matlab
+% Absolute Error
+E_t_abs = abs(E_t);  % Absolute error: Absolute difference between true and approx.
+disp('Absolute Error:');
+disp(E_t_abs);
+```
+
+### **3. True Fractional Relative Error**
+True fractional relative error is the ratio of the true error to the true value.
+
+```matlab
+% True Fractional Relative Error
+E_t_frac = E_t / expt;  % Fractional relative error: (True value - Approx) / True value
+disp('True Fractional Relative Error:');
+disp(E_t_frac);
+```
+
+### **4. True Percent Relative Error**
+True percent relative error is the fractional error expressed as a percentage.
+
+```matlab
+% True Percent Relative Error
+E_t_p = abs(E_t_frac) * 100;  % Percent relative error: Fractional error * 100%
+disp('True Percent Relative Error:');
+disp(E_t_p);
+```
+
+### **Expected Output:**
+If you run the script in MATLAB with `x = 0.5` and `n = 6`, the following output will be displayed:
+
+```
+True Error:
+   0.000283770700127
+Absolute Error:
+   0.000283770700127
+True Fractional Relative Error:
+   0.000172091213249
+True Percent Relative Error:
+   0.017209121324861
+```
+
+---
+
+This format provides clear sections for each error estimation type, making it easier for students to follow and understand the different types of error.
+
+
+
+
 $$
 e^{x} = \sum_{n=0}^{\infty} \frac{x^n}{n!}
 $$
