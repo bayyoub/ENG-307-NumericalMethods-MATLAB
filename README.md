@@ -25,6 +25,10 @@ Each practice script can be found in the links below:
 
 7. [Learning Script 7: Vectorization in MATLAB](exercise7.md)
 
+## Part 3: Estimating Errors in Numerical
+
+8. [Learning Script 8:](exercise8.md)
+
 
 
 ### Author
