@@ -81,7 +81,7 @@ $$
 
 ```matlab
 % True Percent Relative Error
-E_t_p = abs(E_t_frac) * 100;  % Percent relative error: Fractional error * 100%
+E_t_p = abs(E_t_frac) * 100;  % Percent relative error: Fractional error * 100\%
 disp('True Percent Relative Error:');
 disp(E_t_p);
 ```
