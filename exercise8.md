@@ -93,13 +93,13 @@ If you run the script in MATLAB with `x = 0.5` and `n = 6`, the following output
 
 ```
 True Error:
-   0.000283770700127
+   2.335403346154230e-05
 Absolute Error:
-   0.000283770700127
+   2.335403346154230e-05
 True Fractional Relative Error:
-   0.000172091213249
+   1.416493732238017e-05
 True Percent Relative Error:
-   0.017209121324861
+   0.001416493732238
 ```
 
 ---
