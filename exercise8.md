@@ -61,6 +61,10 @@ disp(E_t_abs);
 ### **3. True Fractional Relative Error**
 True fractional relative error is the ratio of the true error to the true value.
 
+$$
+\frac{E_{t}}{\text{True Value}} = \frac{\text{True Value} - \text{Approximation}}{\text{True Value}}
+$$
+
 ```matlab
 % True Fractional Relative Error
 E_t_frac = E_t / expt;  % Fractional relative error: (True value - Approx) / True value
@@ -70,6 +74,12 @@ disp(E_t_frac);
 
 ### **4. True Percent Relative Error**
 True percent relative error is the fractional error expressed as a percentage.
+
+$$
+\epsilon = \frac{\text{True Value} - \text{Approximation}}{\text{True Value}} \times 100 \\%
+$$
+
+%
 
 ```matlab
 % True Percent Relative Error
