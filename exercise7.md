@@ -1,4 +1,4 @@
-# **Example: Vectorization in MATLAB**
+# **Vectorization in MATLAB**
 
 This example introduces the concept of vectorization in MATLAB, which allows you to perform operations on entire arrays without needing loops. The example demonstrates how you can use a `for` loop to compute values for a function and compares it to a more efficient, vectorized approach. Both methods are shown for comparison, and a plot is included to visualize the results.
 
