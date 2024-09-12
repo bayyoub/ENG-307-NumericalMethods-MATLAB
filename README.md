@@ -15,15 +15,15 @@ Each practice script can be found in the links below:
 
 3. [Learning Script 3: Example Function 2: Calculating Mean and Standard Deviation](exercise3.md)
 
-4. [Learning Script 4: Example Function: Prompting for User Input](exercise4.md)
+4. [Learning Script 4: Example Function 3: Prompting for User Input](exercise4.md)
   
-5. [Learning Script 5: Example Function: Using Subfunctions](exercise5.md)
+5. [Learning Script 5: Example Function 4: Using Subfunctions](exercise5.md)
  
 ## Part 2: Structure Programming & Loops
 
 6. [Learning Script 6: Structured Programming in MATLAB](exercise6b.md)
 
-7. [Example: Vectorization in MATLAB](exercise7.md)
+7. [Learning Script 7: Vectorization in MATLAB](exercise7.md)
 
 
 
