@@ -34,7 +34,7 @@ expx = sum(x.^nx ./ factorial(nx));  % Approximation of e^x using Taylor series
 True error is the difference between the true value and the approximation.
 
 $$
-E_{t} = True Value - Approximation
+E_{t} = \text{True Value} - \text{Approximation}
 $$
 
 ```matlab
@@ -48,7 +48,7 @@ disp(E_t);
 Absolute error is the absolute value of the true error.
 
 $$
-|E_{t}| = |True Value - Approximation|
+|E_{t}| = |\text{True Value} - \text{Approximation}|
 $$
 
 ```matlab
