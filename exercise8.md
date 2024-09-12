@@ -4,10 +4,10 @@
 
 ### **Error Estimation in Numerical Methods**
 
-This example demonstrates how to calculate various forms of error, including True Error, Absolute Error, True Fractional Relative Error, and True Percentile Error, using the Taylor series expansion for $$e^{x}$$. This can also be expressed through a Maclaurin series as such:
+This example demonstrates how to calculate various forms of error, including True Error, Absolute Error, True Fractional Relative Error, and True Percentile Error, using the Taylor series expansion for $$e^{x}$$. This can also be expressed through a Maclaurin series as such: $`\sqrt{3x-1}+(1+x)^2`$
 
 $$
-e^{x} = \sum_{n=0}^{\infty} \frac{x^n}{n!}
+e^{x} = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \dots
 $$
 
 Here, we will compute the errors for  $e^{0.5}$ using a 6-term Maclaurin series expansion.
