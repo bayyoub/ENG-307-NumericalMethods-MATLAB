@@ -1,3 +1,7 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
 ### **Error Estimation in Numerical Methods**
 
 This example demonstrates how to calculate various forms of error, including True Error, Absolute Error, True Fractional Relative Error, and True Percentile Error, using the Taylor series expansion for $e^{x}$. This can also be expressed through a Maclaurin series as such:
