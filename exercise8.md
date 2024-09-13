@@ -2,7 +2,7 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
-### **Error Estimation in Numerical Methods**
+# **Error Estimation in Numerical Methods**
 
 In this example, we demonstrate how to calculate different types of errors: True Error, Absolute Error, True Fractional Relative Error, and True Percent Relative Error. We will use the Taylor series expansion for $$e^{x}$$. This can also be expressed through a Maclaurin series as such: 
 
