@@ -1,7 +1,7 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-# **Error Estimation for Iterative Methods**
+# **Error Estimation Using Iterative Methods**
 
 In the previous example, we calculated errors assuming we knew the true value. However, in most cases, we do not know the true value. Instead, we use an error criterion to estimate the accuracy of our result. Specifically, we can define the error as:
 
