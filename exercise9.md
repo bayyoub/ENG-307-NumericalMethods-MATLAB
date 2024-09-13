@@ -9,7 +9,7 @@ $$
 e_a < | e_s |
 $$
 
-Where $e_s$ is the stopping criterion, given by:
+Where $$e_s$$ is the stopping criterion, given by:
 
 $$
 e_s = (0.5 \times 10^{2-n}) \%
