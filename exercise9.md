@@ -49,8 +49,8 @@ end
 fprintf('Convergence achieved at i = %0.0f', i);
 ```
 
-- **`while e_t > e_s`**: The loop continues until the error \( e_t \) is less than the stopping criterion \( e_s \).
-- **`e_x = e_x + (0.5^i)/factorial(i)`**: Adds the next term in the Taylor series expansion of \( e^{0.5} \).
+- **`while e_t > e_s`**: The loop continues until the error `e_t` is less than the stopping criterion `e_s`.
+- **`e_x = e_x + (0.5^i)/factorial(i)`**: Adds the next term in the Taylor series expansion of $$e^{0.5}$$.
 - **`e_t = abs((exp(0.5) - e_x)/exp(0.5)) * 100`**: Calculates the true percent relative error for the current approximation.
 - **`i = i + 1`**: Moves to the next term in the series by incrementing the iteration index.
 
