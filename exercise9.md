@@ -12,10 +12,10 @@ $$
 Where $e_s$ is the stopping criterion, given by:
 
 $$
-e_s = 0.5 \times 10^{2-n} \%
+e_s = (0.5 \times 10^{2-n}) \%
 $$
 
-In this example, we aim to approximate $e^{0.5}$ using the stopping criterion $e_s$, which ensures the result is accurate up to $n$ significant figures. We will use a `while` loop because we do not know in advance how many terms are required to meet the stopping criterion. For demonstration purposes, we will also calculate the true error per iteration using MATLAB's built-in `exp(x)` function to get the true value.
+In this example, we aim to approximate $$e^{0.5}$$ using the stopping criterion $$e_s$$, which ensures the result is accurate up to $$n$$ significant figures. We will use a `while` loop because we do not know in advance how many terms are required to meet the stopping criterion. For demonstration purposes, we will also calculate the true error per iteration using MATLAB's built-in `exp(x)` function to get the true value.
 
 This method will follow **Example 4.1** from the book.
 
@@ -56,7 +56,7 @@ fprintf('Convergence achieved at i = %0.0f', i);
 
 ### **Output**
 
-The loop will stop when the error is smaller than the stopping criterion $e_s$, and the number of iterations required for convergence will be printed.
+The loop will stop when the error is smaller than the stopping criterion $$e_s$$, and the number of iterations required for convergence will be printed.
 
 ### **Expected Output:**
 
