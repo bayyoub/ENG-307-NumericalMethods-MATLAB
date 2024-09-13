@@ -29,6 +29,8 @@ Each practice script can be found in the links below:
 
 8. [Learning Script 8: Types of Error Estimation](exercise8.md)
 
+9. [Learning Script 9: Error Estimation Using Iterative Methods](exercise9.md)
+
 
 
 ### Author
