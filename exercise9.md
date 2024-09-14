@@ -6,16 +6,16 @@
 In the previous example, we calculated errors assuming we knew the true value. However, in most cases, we do not know the true value. Instead, we use an error criterion to estimate the accuracy of our result. Specifically, we can define the error as:
 
 $$
-e_a < | e_s |
+\epsilon_a < | \epsilon_s |
 $$
 
-Where $$e_s$$ is the stopping criterion, given by:
+Where $$\epsilon_s$$ is the stopping criterion, given by:
 
 $$
-e_s = (0.5 \times 10^{2-n}) \%
+\epsilon_s = (0.5 \times 10^{2-n}) \%
 $$
 
-In this example, we aim to approximate $$e^{0.5}$$ using the stopping criterion $$e_s$$, which ensures the result is accurate up to $$n$$ significant figures. We will use a `while` loop because we do not know in advance how many terms are required to meet the stopping criterion. For demonstration purposes, we will also calculate the true error per iteration using MATLAB's built-in `exp(x)` function to get the true value.
+In this example, we aim to approximate $$e^{0.5}$$ using the stopping criterion $$\epsilon_s$$, which ensures the result is accurate up to $$n$$ significant figures. We will use a `while` loop because we do not know in advance how many terms are required to meet the stopping criterion. For demonstration purposes, we will also calculate the true error per iteration using MATLAB's built-in `exp(x)` function to get the true value.
 
 This method will follow **Example 4.1** from the book.
 
@@ -56,7 +56,7 @@ fprintf('Convergence achieved at i = %0.0f', i);
 
 ### **Output**
 
-The loop will stop when the error is smaller than the stopping criterion $$e_s$$, and the number of iterations required for convergence will be printed.
+The loop will stop when the error is smaller than the stopping criterion $$\epsilon_s$$, and the number of iterations required for convergence will be printed.
 
 ### **Expected Output:**
 
