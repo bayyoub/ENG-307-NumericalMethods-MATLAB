@@ -10,26 +10,28 @@ Each practice script can be found in the links below:
 ## Part 1: Scripts & Functions
 
 1. [Learning Script 1: Writing and Running MATLAB Scripts](exercise1.md)
-  
-2. [Learning Script 2: Example Function: Squaring a Number](exercise2.md)
 
-3. [Learning Script 3: Example Function 2: Calculating Mean and Standard Deviation](exercise3.md)
-
-4. [Learning Script 4: Example Function 3: Prompting for User Input](exercise4.md)
+2. [Learning Script 2: Example Function: Squaring a Number](exercise1a.md)
   
-5. [Learning Script 5: Example Function 4: Using Subfunctions](exercise5.md)
+3. [Learning Script 3: Example Function: Squaring a Number](exercise2.md)
+
+4. [Learning Script 4: Example Function 2: Calculating Mean and Standard Deviation](exercise3.md)
+
+5. [Learning Script 5: Example Function 3: Prompting for User Input](exercise4.md)
+  
+6. [Learning Script 6: Example Function 4: Using Subfunctions](exercise5.md)
  
 ## Part 2: Structure Programming & Loops
 
-6. [Learning Script 6: Structured Programming in MATLAB](exercise6b.md)
+6. [Learning Script 7: Structured Programming in MATLAB](exercise6b.md)
 
-7. [Learning Script 7: Vectorization in MATLAB](exercise7.md)
+7. [Learning Script 8: Vectorization in MATLAB](exercise7.md)
 
 ## Part 3: Estimating Errors
 
-8. [Learning Script 8: Types of Error Estimation](exercise8.md)
+8. [Learning Script 9: Types of Error Estimation](exercise8.md)
 
-9. [Learning Script 9: Error Estimation Using Iterative Methods](exercise9.md)
+9. [Learning Script 10: Error Estimation Using Iterative Methods](exercise9.md)
 
 
 
