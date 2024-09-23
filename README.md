@@ -11,7 +11,7 @@ Each practice script can be found in the links below:
 
 1. [Learning Script 1: Writing and Running MATLAB Scripts](exercise1.md)
 
-2. [Learning Script 2: Example Function: Squaring a Number](exercise1a.md)
+2. [Learning Script 2: Writing Vectors and Matrices in MATLAB](exercise1a.md)
   
 3. [Learning Script 3: Example Function: Squaring a Number](exercise2.md)
 
